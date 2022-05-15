@@ -7,6 +7,6 @@ mylist=p.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_m
 
 my_list=mylist.set_index('Fruit')
 
-fruit_selected = s.multiselect("pick some fruits",list(my_list.index),['Banana','Apple'])
+fruit_selected = s.multiselect("pick some fruits",list(my_list.index))
 fruit_view=my_list.loc[fruit_selected]
 s.dataframe(fruit_view)
