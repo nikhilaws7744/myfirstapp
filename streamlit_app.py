@@ -6,5 +6,5 @@ s.header('My new snowflake experiecnce')
 
 s.text('Step by step')
 
-streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
+s.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
 
