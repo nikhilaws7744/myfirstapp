@@ -1,6 +1,8 @@
-import streamlit
+import streamlit as s
 
-streamlit.title('Hello Nikhil')
+s.title('Hello Nikhil')
 
-streamlit.header('My new snowflake experiecnce')
+s.header('My new snowflake experiecnce')
+
+s.text('Step by step')
 
